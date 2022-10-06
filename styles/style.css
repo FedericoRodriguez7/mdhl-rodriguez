@@ -1,0 +1,492 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(./../images/imagen3.jpg);
+  background-repeat: no-repeat;
+  height: 5rem;
+}
+
+header {
+  height: 16rem;
+  width: 100%;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  width: 100%;
+  color: red;
+  text-shadow: -1px -1px 1px #aaa, 0px 4px 1px rgba(0, 0, 0, 0.5),
+    4px 4px 5px rgba(0, 0, 0, 0.7), 0px 0px 7px rgba(0, 0, 0, 0.4);
+
+  position: absolute;
+  text-shadow: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header img {
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  object-fit: cover;
+}
+
+nav {
+  width: 100%;
+  height: 4rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a {
+  height: 2rem;
+  color: red;
+  text-decoration: none;
+  font-size: 0.7cm;
+  font-style: italic;
+  text-decoration: none;
+  font-weight: bold;
+  text-shadow: -1px -1px 1px #aaa, 0px 4px 1px rgba(0, 0, 0, 0.5),
+    4px 4px 5px rgba(0, 0, 0, 0.7), 0px 0px 7px rgba(0, 0, 0, 0.4);
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  text-shadow: -1px -1px 1px #aaa, 0px 4px 1px rgba(0, 0, 0, 0.5),
+    4px 4px 5px rgba(0, 0, 0, 0.7), 0px 0px 7px rgba(0, 0, 0, 0.4);
+}
+
+h3 {
+  display: flex;
+  justify-content: center;
+  font-size: 0.7cm;
+  text-shadow: -1px -1px 1px #aaa, 0px 4px 1px rgba(0, 0, 0, 0.5),
+    4px 4px 5px rgba(0, 0, 0, 0.7), 0px 0px 7px rgba(0, 0, 0, 0.4);
+}
+
+.section {
+  height: 20rem;
+}
+
+.article2 {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.article,
+.article3 {
+  height: 8rem;
+  align-items: flex-end;
+}
+.article1, .articel2, .article3{
+  margin-left: 4px;
+}
+
+p {
+  height: 100%;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  font-size: 0.7cm;
+  color: red;
+  text-shadow: -1px -1px 1px #aaa, 0px 4px 1px rgba(0, 0, 0, 0.5),
+    4px 4px 5px rgba(0, 0, 0, 0.7), 0px 0px 7px rgba(0, 0, 0, 0.4);
+}
+footer {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+#logo1 {
+  width: 13rem;
+  height: 10rem;
+
+  order: 2;
+  display: flex;
+  align-items: flex-end;
+}
+#logo {
+  width: 13rem;
+  height: 10rem;
+  opacity: 0.5;
+  order: 2;
+  display: flex;
+  position: relative;
+  left: 25rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+footer p {
+  display: flex;
+  align-items: flex-end;
+  font-size: 0.4cm;
+  order: 1;
+}
+
+#image2 {
+  height: 11rem;
+
+  border-radius: 3rem;
+  order: 0;
+}
+#image3 {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 3rem;
+  position: absolute;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.contact1 p {
+  position: relative;
+  top: 4rem;
+  display: flex;
+  justify-content: center;
+}
+
+#logo3 {
+  width: 13rem;
+  height: 10rem;
+
+  order: 2;
+  position: relative;
+  top: 10rem;
+}
+
+.final {
+  position: relative;
+  top: 10rem;
+}
+
+#image4 {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 3rem;
+  position: absolute;
+  opacity: 0.6;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.section7 {
+  text-align: center;
+  text-shadow: -1px -1px 1px #aaa, 0px 4px 1px rgba(0, 0, 0, 0.5),
+    4px 4px 5px rgba(0, 0, 0, 0.7), 0px 0px 7px rgba(0, 0, 0, 0.4);
+}
+.section7 dd {
+  text-align: center;
+  text-align: justify;
+  margin: 10px;
+}
+
+.section7 dt {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+#logo7 {
+  width: 13rem;
+  height: 10rem;
+
+  order: 2;
+  position: relative;
+  bottom: 2rem;
+  opacity: 0.5;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.footer7 {
+  display: flex;
+  align-items: center;
+}
+
+.footer2 {
+  display: flex;
+  justify-content: center;
+}
+
+.game1 p {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 0.5cm;
+}
+
+.information {
+  display: flex;
+
+  justify-content: space-around;
+  text-shadow: -1px -1px 1px #aaa, 0px 4px 1px rgba(0, 0, 0, 0.5),
+    4px 4px 5px rgba(0, 0, 0, 0.7), 0px 0px 7px rgba(0, 0, 0, 0.4);
+}
+
+.days {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.Final3,
+.Final5,
+.Final4 {
+  display: inline-block;
+  display: flex;
+}
+
+.Final3 dt,
+.Final5 dt,
+.Final4 dt {
+  font-weight: bold;
+}
+
+.Final5,
+.Final4 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#logo9 {
+  width: 13rem;
+  height: 10rem;
+  order: 2;
+  position: relative;
+}
+
+table {
+  width: 90%;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+table,
+tr,
+th,
+tfoot td {
+  border-collapse: collapse;
+  text-align: center;
+  text-shadow: -1px -1px 1px #aaa, 0px 4px 1px rgba(0, 0, 0, 0.5),
+    4px 4px 5px rgba(0, 0, 0, 0.7), 0px 0px 7px rgba(0, 0, 0, 0.4);
+}
+
+.Titulos {
+  background-color: white;
+  color: black;
+}
+.par {
+  background-color: red;
+  color: white;
+}
+
+.impar {
+  background-color: white;
+  color: black;
+}
+
+.September {
+  width: 9rem;
+}
+
+.Teams {
+  width: 9rem;
+}
+
+.Location {
+  width: 9rem;
+}
+
+.Times {
+  width: 9rem;
+}
+
+#Nav1 {
+  color: blue;
+}
+
+.about {
+  color: blue;
+}
+
+.contact {
+  color: blue;
+}
+
+#nav3 {
+  color: blue;
+}
+
+#nav5 {
+  color: blue;
+}
+
+#Nav6 {
+    color: blue;
+}
+
+form {
+  height: 53rem;
+  width: 55rem;
+  margin: auto;
+  background-color: beige;
+  
+}
+
+form label,
+form legend,
+input,
+fieldset {
+  display: inline-block;
+  margin: 3px;
+}
+
+.zipcode,
+.city {
+  margin-top: 20px;
+}
+
+#FirstName {
+  width: 17rem;
+}
+#LastName {
+  width: 21.4rem;
+}
+
+.Birthday {
+  margin-top: 2rem;
+}
+
+
+
+#Birth {
+  width: 20rem;
+  align-items: flex-end;
+}
+
+#ZipCode {
+  width: 17rem;
+}
+
+.datosprimeros {
+  height: 10rem;
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline;
+}
+
+.position4 {
+  width: 49rem;
+  height: 4rem;
+}
+.permision {
+  display: inline-block;
+}
+
+.permision h2 {
+  margin-left: 15px;
+  font-size: 0.6cm;
+  font-weight: bold;
+}
+.permision p {
+  font-size: 0.52cm;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  color: black;
+  font-style: none;
+  text-shadow: none;
+  text-align: justify;
+}
+
+#submit {
+  width: 3rem;
+}
+
+.Signature,
+.Date {
+  border-top: 87px;
+}
+#Signature {
+  width: 42.4rem;
+}
+.firstname, .lastname{
+    margin-top: 7px;
+}
+
+.botoncito {
+  width: 48rem;
+  display: flex;
+  justify-content: center;
+}
+.final11 {
+  margin-top: 3px;
+}
+
+.aveniu {
+  margin-top: 13px;
+}
+.Date {
+  margin-left: 8px;
+}
+
+.Signature {
+  margin-left: 8px;
+}
+
+.uniform {
+  width: 49rem;
+  height: 4rem;
+}
+
+.gender {
+  width: 29.5%;
+  height: 4rem;
+  display: inline;
+  margin-left: 7rem;
+}
+
+
+
+.grade2 {
+  width: 49rem;
+  height: 4rem;
+
+}
+
+.group4 {
+  width: 49rem;
+  height: 4rem;
+}
+
+#StreetAdress {
+  width: 47.6rem
+}
+
+#City {
+  width: 25.3rem;
+}
+
+#ZipCode {
+  width: 21rem;
+}
+
+.Maps {
+  width: 10rem;
+}
+
+.footer9 {
+  background-color: black;
+}
+
+.main7 {
+  background-image: url(./../images/imagen3.jpg);
+  background-repeat: no-repeat;
+}
